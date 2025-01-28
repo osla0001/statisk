@@ -1,0 +1,55 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  height: 70px;
+  background-color: rgb(253, 250, 247);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 60px;
+  gap: 1rem;
+}
+
+#logo {
+  margin-inline-end: auto;
+  font-size: 2rem;
+}
+
+/* Forside */
+#categories {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 10px auto 0 auto;
+}
+
+.undercategory {
+  background-color: lightgrey;
+  padding: 1.8rem;
+  flex-grow: 1;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.undercategory:hover {
+  background-color: rgba(211, 211, 211, 0.698);
+  transition: 0.3s;
+}
