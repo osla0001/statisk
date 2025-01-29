@@ -63,3 +63,9 @@ h2 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.sold_out_text {
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 2rem;
+}
