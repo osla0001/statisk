@@ -7,3 +7,59 @@ header a:hover {
   opacity: 0.6;
   transition: 0.3s;
 }
+
+h1 {
+  font-family: Arial;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.category {
+  color: rgb(154, 154, 154);
+}
+
+.read_more {
+  text-decoration: underline;
+}
+
+.product_info h2 {
+  font-size: 2.5rem;
+}
+
+.product_info h3 {
+  font-family: Arial;
+  margin-top: 15px;
+  font-size: 2rem;
+}
+
+.product_info h4 {
+  font-size: 1.2rem;
+}
+
+.product_info h2 {
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
+.product_info p {
+  font-family: Arial;
+  color: rgb(82, 82, 82);
+}
+
+.product_info h4 {
+  font-family: Arial;
+}
+
+.price_container .price_text,
+.size_container p {
+  color: black;
+  font-weight: bolder;
+}
+
+.undercategory p {
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: 700;
+}
