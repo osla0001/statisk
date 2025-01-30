@@ -32,6 +32,17 @@ header {
   margin-inline-end: auto;
 }
 
+#logo_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.red {
+  color: Red;
+  transform: scale(-1, 1);
+}
+
 /* Forside */
 #categories {
   display: flex;
