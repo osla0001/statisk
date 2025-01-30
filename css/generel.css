@@ -23,14 +23,13 @@ header {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 25px 15px;
   margin-bottom: 60px;
   gap: 1rem;
 }
 
 #logo {
   margin-inline-end: auto;
-  font-size: 2rem;
 }
 
 /* Forside */
@@ -131,6 +130,19 @@ header {
 }
 
 /* Produkt */
+.product_path {
+  margin-left: 85px;
+  margin-bottom: 15px;
+}
+
+.product_path p {
+  font-family: Arial;
+}
+
+.product_path a:hover {
+  opacity: 0.5;
+}
+
 #product_display {
   display: grid;
   grid-template-columns: 1fr 1fr;
