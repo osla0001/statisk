@@ -67,11 +67,17 @@ h2 {
 .sold_out_text {
   text-transform: uppercase;
   font-family: Arial;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 header a {
   font-family: Arial;
   font-size: 1.2rem;
   font-weight: 800;
+}
+
+.discount_container p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 1rem;
 }

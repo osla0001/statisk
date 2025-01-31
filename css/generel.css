@@ -111,15 +111,25 @@ header {
 }
 
 .discount_container {
-  margin-inline-start: auto;
+  display: grid;
 }
 
 .discount_display {
-  background-color: yellow;
-  padding: 1.3rem 0.8rem;
-  border-radius: 100px;
-  margin-top: -10px;
-  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.078);
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+  display: flex;
+  margin-inline-start: auto;
+  justify-content: center;
+  background-color: red;
+  padding: 0.8rem;
+  height: 50px;
+  width: 100px;
+}
+
+.discount_image {
+  grid-row: 1;
+  grid-column: 1;
 }
 
 .sold_out {
@@ -137,7 +147,13 @@ header {
   grid-row: 1;
   grid-column: 1;
   z-index: 1;
-  margin: auto auto;
+  display: flex;
+  margin-inline-start: auto;
+  justify-content: center;
+  background-color: gray;
+  padding: 0.8rem;
+  height: 50px;
+  width: 100px;
 }
 
 /* Produkt */
